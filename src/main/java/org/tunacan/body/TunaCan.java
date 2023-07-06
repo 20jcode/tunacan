@@ -5,15 +5,15 @@ import org.tunacan.recycle.Recycleable;
 
 public abstract class TunaCan {
 
-	public String tunaCanName;
+	protected String tunaCanName;
 
-	public int tunaCanValue;
+	protected int tunaCanValue;
 
-	public String tunaCanInfo;
+	protected String tunaCanInfo;
 
-	public Openable openable; //여기서는 생성자가 필요가 없음, subClass에서 생성자를 통해서 지정해주기
+	protected Openable openable; //여기서는 생성자가 필요가 없음, subClass에서 생성자를 통해서 지정해주기
 
-	public Recycleable recycleable;
+	protected Recycleable recycleable;
 
 	public void openTuna(){
 
