@@ -1,10 +1,8 @@
-package org.tunacan.body;
+package org.c1.body;
 
-import org.tunacan.recycle.metal;
-import org.tunacan.subbody.cream;
-import org.tunacan.subbody.gochu;
-
-import static org.junit.jupiter.api.Assertions.*;
+import org.c1.recycle.metal;
+import org.c1.subbody.cream;
+import org.c1.subbody.gochu;
 
 class TunaCanTest {
 

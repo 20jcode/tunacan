@@ -1,4 +1,4 @@
-package org.tunacan.recycle;
+package org.c1.recycle;
 
 public class Plastic implements Recycleable{
 

@@ -1,9 +1,8 @@
-package org.tunacan.subbody;
+package org.c1.subbody;
 
-import org.tunacan.body.TunaCan;
-import org.tunacan.open.HandOpen;
-import org.tunacan.recycle.Plastic;
-import org.tunacan.recycle.Recycleable;
+import org.c1.body.TunaCan;
+import org.c1.open.HandOpen;
+import org.c1.recycle.Plastic;
 
 public class cream extends TunaCan {
 

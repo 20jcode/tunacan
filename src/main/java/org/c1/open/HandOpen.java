@@ -1,4 +1,4 @@
-package org.tunacan.open;
+package org.c1.open;
 
 public class HandOpen implements Openable {
 

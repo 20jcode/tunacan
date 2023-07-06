@@ -1,7 +1,7 @@
-package org.tunacan.body;
+package org.c1.body;
 
-import org.tunacan.open.Openable;
-import org.tunacan.recycle.Recycleable;
+import org.c1.open.Openable;
+import org.c1.recycle.Recycleable;
 
 public abstract class TunaCan {
 
