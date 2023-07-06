@@ -25,4 +25,11 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
 		System.out.println("현재 참치 무게 : "+weight);
 		System.out.println("현재 참치 온도 : "+temperature);
 	}
+
+	@Override
+	public void getData () {
+		weight = tunaData.pullData("weight");
+		temperature = tunaData.pullData("temperature");
+		display();
+	}
 }

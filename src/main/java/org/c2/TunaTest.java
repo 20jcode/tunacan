@@ -9,5 +9,7 @@ public class TunaTest {
 				new CurrentConditionsDisplay(tunaData);
 
 		tunaData.setMeasurements(20,30,23.1f);
+
+		currentConditionsDisplay.getData();
 	}
 }

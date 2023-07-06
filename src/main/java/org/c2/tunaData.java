@@ -32,6 +32,12 @@ public class tunaData implements Subject {
 		}
 	}
 
+	@Override
+	public float pullData (String dataName) {
+		//이름에 일치하는 항목 리턴
+		return 0.1f;
+	}
+
 	public float getWeight(){ // 참치 무게
 
 		return 0;
