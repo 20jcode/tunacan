@@ -1,6 +1,6 @@
 package org.tunacan.open;
 
-public interface openable {
+public interface Openable {
 
 	void open();
 }
