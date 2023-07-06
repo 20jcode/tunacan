@@ -8,7 +8,11 @@ public class gochu extends TunaCan { // 여기서는 interface에 대한 impl을
 
 	public gochu(){
 
-		this.openable = new HandOpen(); // 여기 구현된 인터페이스 객체를 설정해줌으로, 끝
+		this.openable = new HandOpen(); // 여기 구현된 인터페이스 객체를 설정해줌으로, 함
 	}
 
+	@Override
+	public void display () {
+		System.out.println("고추참치~");
+	}
 }
